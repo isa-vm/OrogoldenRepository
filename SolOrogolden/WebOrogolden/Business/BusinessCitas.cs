@@ -11,7 +11,7 @@ namespace WebOrogolden.Business
     {
         public void AddCita(Citas citas)
         {
-            using (Database1Entities db = new Database1Entities())
+            using (Database1Entities1 db = new Database1Entities1())
             {
                 Citas emai = db.Citas.Where(x => x.Email == citas.Email).FirstOrDefault();
                 if (emai == null)

@@ -1,0 +1,45 @@
+﻿@model WebOrogolden.Models.Citas
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@if (TempData["msj"] != null)
+{
+    <div class="alert alert-danger">@TempData["msj"]</div>
+}
+
+<form>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <td>
+                <input type="text" name="Nombre" value="" />
+            </td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>
+                <input type="text" name="Email" value="" />
+            </td>
+        </tr>
+        <tr>
+            <th>Teléfono</th>
+            <td>
+                <input type="text" name="Telefono" value="" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" name="name" value="Reservar ahora" formaction="/Home/Create"/>
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

@@ -12,7 +12,7 @@
           <Property Name="Id" Type="int" Nullable="false" />
           <Property Name="Nombre" Type="varchar" MaxLength="50" />
           <Property Name="Email" Type="varchar" MaxLength="50" />
-          <Property Name="Telefono" Type="int" />
+          <Property Name="Telefono" Type="varchar" MaxLength="50" />
         </EntityType>
         <EntityContainer Name="Database1ModelStoreContainer">
           <EntitySet Name="Citas" EntityType="Self.Citas" Schema="dbo" store:Type="Tables" />
@@ -29,9 +29,9 @@
           <Property Name="Id" Type="Int32" Nullable="false" />
           <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-          <Property Name="Telefono" Type="Int32" />
+          <Property Name="Telefono" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
         </EntityType>
-        <EntityContainer Name="Database1Entities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="Database1Entities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Citas" EntityType="Self.Citas" />
         </EntityContainer>
       </Schema>
@@ -39,7 +39,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="Database1ModelStoreContainer" CdmEntityContainer="Database1Entities">
+        <EntityContainerMapping StorageEntityContainer="Database1ModelStoreContainer" CdmEntityContainer="Database1Entities1">
           <EntitySetMapping Name="Citas">
             <EntityTypeMapping TypeName="Database1Model.Citas">
               <MappingFragment StoreEntitySet="Citas">
