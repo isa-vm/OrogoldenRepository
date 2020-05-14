@@ -119,6 +119,22 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Model1.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <Content Include="imgs\icon\mail.png" />
+    <Content Include="imgs\icon\telephone.png" />
+    <Content Include="imgs\img\bg-principal.jpg" />
+    <Content Include="imgs\img\cropped-orogold-logo-dgold.png" />
+    <Content Include="imgs\img\photo-1489659639091-8b687bc4386e.jpg" />
+    <Content Include="imgs\img\photo-1513104806186-1b00f3e7a65e.jpg" />
+    <Content Include="imgs\img\photo-1515377905703-c4788e51af15.jpg" />
+    <Content Include="imgs\img\photo-1516238840914-94dfc0c873ae.jpg" />
+    <Content Include="imgs\img\photo-1520473378652-85d9c4aee6cf.jpg" />
+    <Content Include="imgs\img\photo-1531853121101-cb94c8ed218d.jpg" />
+    <Content Include="imgs\img\photo-1552693673-1bf958298935.jpg" />
+    <Content Include="imgs\img\photo-1553540751-988bd7918c7e.jpg" />
+    <Content Include="imgs\img\photo-1554057009-6798cb3d4a04.jpg" />
+    <Content Include="imgs\img\photo-1555820585-c5ae44394b79.jpg" />
+    <Content Include="imgs\img\photo-1559058922-5d29e1f00075.jpg" />
+    <Content Include="imgs\img\photo-1560944527-a4a429848866.jpg" />
     <Content Include="Models\Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
